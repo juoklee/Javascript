@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>연산자02</title>
+</head>
+<body>
+    <script>
+      //window가 열릴 때 함수 실행
+      window.onload = function() {
+        var list = ""; //문자열 타입
+        list += "<ul>";
+        list += "   <li>안녕</li>";
+        list += "   <li>자바스크립트</li>";
+        list += "</ul>";
+        //문서에 출력하라
+        document.body.innerHTML = list;
+
+        var num = 10; //number 타입
+        num += 10;
+        num += 10;
+        num += 10;
+        num += 10;
+        document.write(num);
+
+      }
+    </script>
+</body>
+</html>
