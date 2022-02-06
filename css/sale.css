@@ -32,5 +32,10 @@ input[type="text"] {
 button {
   padding: 5px 10px;
   border: 1px solid #ccc;
-  font-size: lem;
+  font-size: 1em;
+}
+
+#showResult {
+  margin-top: 20px;
+  font-size: 1.5em;
 }
