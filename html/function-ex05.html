@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>지역변수와 전역변수2</title>
+</head>
+<body>
+  <script>
+    function lacalTest() {
+      var value = "Lee";
+      document.write("1.value = " + value);
+    }
+    localTest();
+    //value값은 지역변수로 선언되어 있어서 함수가 종료되먄 사라지므로 전역에서는 사용할 수 없다.
+    document.write("2.value = " + value);
+
+  </script>
+
+
+</body>
+</html>
